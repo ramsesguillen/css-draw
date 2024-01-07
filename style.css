@@ -538,7 +538,7 @@ body {
   border-right: 30px solid #3A7CEC;
   transform: rotate(45deg);
   border-radius: 50%;
-  z-index: -1;
+  z-index: 1;
 }
 .google__line {
   box-sizing: border-box;
@@ -598,6 +598,9 @@ body {
   border: 12px solid black;
   border-radius: 50%;
   position: relative;
+}
+.panda__bg {
+  background-color: #fff;
 }
 
 .panda__eye-left {
